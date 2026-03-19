@@ -137,11 +137,13 @@ tasks.json
 
 ## 📌 Future Improvements
 
-* Add task priorities
-* Add deadlines and reminders
-* GUI version (Tkinter / Web)
-* Search tasks by keyword
-* Export tasks (CSV / PDF)
+- Add task priorities
+- Add deadlines and reminders
+- GUI version (Tkinter / Web)
+- Search tasks by keyword
+- Export tasks (CSV / PDF)
+- Integrate a real database (e.g., PostgreSQL, MySQL)
+- Add user-based task separation (multi-user support)
 
 ---
 
