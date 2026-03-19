@@ -2,9 +2,9 @@ from Status import Status
 
 class Task:
     def __init__(self, name: str, description: str, status: Status, creation_date: str) -> None:
-        self.__name = name
-        self.__description = description
-        self.__status = status
+        self.__name          = name
+        self.__description   = description
+        self.__status        = status
         self.__creation_date = creation_date
 
     def __str__(self) -> str:
@@ -27,9 +27,9 @@ class Task:
     #===Convert to JSON===
     def to_dict(self):
         return {
-            "name": self.__name,
-            "description": self.__description,
-            "status": self.__status.value,
+            "name"         : self.__name,
+            "description"  : self.__description,
+            "status"       : self.__status.value,
             "creation_date": self.__creation_date
         }
 
